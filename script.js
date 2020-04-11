@@ -1,3 +1,14 @@
+title.addEventListener("mouseover", function(){
+  title.innerHTML = "(first generation)";
+  title.style.color = "rgb(255, 194, 217)";
+  title.style.transition = "1s";
+})
+
+title.addEventListener("mouseout", function(){
+  title.innerHTML = "the rogers cousins";
+  title.style.color = "rgb(23, 128, 66";
+})
+
 let outputElement = document.getElementById('outputElement');
 let outputParagraph = document.getElementById('outputParagraph');
 let contentGridElement = document.getElementById('contentGrid');
@@ -160,13 +171,44 @@ newImage.src = incomingJSON['picture_url'];
 newContentElement.appendChild(newImage);
 contentGridElement.appendChild(newContentElement);
 
+// add event listener to rotate images on mouseover
+newImage.addEventListener("mouseover", function(){
+  newImage.style.transform = "rotate(360deg)";
+  newImage.style.transition = "3s";
+})
+
+  newImage.addEventListener("mouseout", function(){
+    newImage.style.transform = "rotate(0deg)";
+  })
+
 let newContentHeading = document.createElement("H3");
  // newContentHeading.classList.add('contentTitle');
  newContentHeading.innerHTML = incomingJSON['title'];
  newContentElement.appendChild(newContentHeading);
 
+ newContentHeading.addEventListener("mouseover", function(){
+   newContentHeading.style.color = "rgb(62, 181, 110)";
+   newContentHeading.style.transition = "0.5s";
+ })
+
+ newContentHeading.addEventListener("mouseout", function(){
+   newContentHeading.style.color = "rgb(23, 128, 66)";
+ })
+
  let newContentSubheading = document.createElement("H5");
   // newContentHeading.classList.add('contentTitle');
   newContentSubheading.innerHTML = incomingJSON['city'];
   newContentElement.appendChild(newContentSubheading);
+
+  newContentSubheading.addEventListener("mouseover", function(){
+    newContentSubheading.style.color = "rgb(255, 194, 217)";
+    newContentSubheading.style.transform = "scale(1.3)";
+    newContentSubheading.style.transition = "1s";
+  })
+
+  newContentSubheading.addEventListener("mouseout", function(){
+    newContentSubheading.style.color = "rgb(23, 128, 66)";
+    newContentSubheading.style.transform = "scale(1)";
+  })
+
 }
