@@ -25,6 +25,11 @@ let jsonDatabase = [
     "city" : "san diego, california",
   },
   {
+    "title" : "brandon",
+    "picture_url" : "brandon.png",
+    "city" : "philadelphia, pennsylvania",
+  },
+  {
     "title" : "conan",
     "picture_url" : "conan.png",
     "city" : "oahu, hawaii",
@@ -100,6 +105,11 @@ let jsonDatabase = [
     "city" : "big island, hawaii",
   },
   {
+    "title" : "mikayla",
+    "picture_url" : "mikayla.png",
+    "city" : "new york, new york",
+  },
+  {
     "title" : "phoebe",
     "picture_url" : "phoebe.png",
     "city" : "las vegas, nevada",
@@ -156,14 +166,10 @@ function createElementMessy(incomingJSON) {
     var cityString = incomingJSON['city'][i];
     incompleteHTML += cityString;
   }
-
-  incompleteHTML += "</div></div>";
-  contentGridElement.innerHTML = incompleteHTML;
 }
 
 function createElementProper(incomingJSON) {
 let newContentElement = document.createElement("DIV");
-newContentElement.classList.add('contentItem');
 
 let newImage = document.createElement("IMG");
 newImage.classList.add("profilePicture");
