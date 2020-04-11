@@ -6,7 +6,7 @@ let jsonDatabase = [
   {
     "title" : "alex",
     "picture_url" : "alex.png",
-     "city" : "oahu, hawaii",
+     "city" : "oahu, hawaii 🌎 ",
   },
   {
     "title" : "anri",
