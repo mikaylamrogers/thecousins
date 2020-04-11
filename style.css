@@ -1,12 +1,14 @@
 body {
   margin: 5vw 10vw 0px 10vw;
-  background-color: #f7eddf;
+  background-image: url('noise.png');
+  background-color: #178042;
   font-family: 'Gentium Book Basic', serif;
   color: #178042;
 }
 
 h1 {
-  font-size: 60px;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -17,6 +19,8 @@ h3 {
 }
 
 h5 {
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 1px;
   font-size: 18px;
   line-height: 0px;
 }
@@ -36,4 +40,8 @@ body * {
 .contentItem {
   text-align: center;
   justify-content: center;
+}
+
+.profilePicture {
+  width: 100%;
 }

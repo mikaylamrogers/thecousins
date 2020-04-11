@@ -6,7 +6,7 @@ let jsonDatabase = [
   {
     "title" : "alex",
     "picture_url" : "alex.png",
-     "city" : "oahu, hawaii 🌎 ",
+     "city" : "oahu, hawaii",
   },
   {
     "title" : "anri",
@@ -29,9 +29,14 @@ let jsonDatabase = [
     "city" : "oahu, hawaii",
   },
   {
+    "title" : "julie",
+    "picture_url" : "julie.png",
+    "city" : "big island, hawaii",
+  },
+  {
     "title" : "kahlil",
     "picture_url" : "kahlil.png",
-    "city" : "   ",
+    "city" : "springfield, virginia",
   },
   {
     "title" : "kane",
@@ -41,12 +46,12 @@ let jsonDatabase = [
   {
     "title" : "ken",
     "picture_url" : "ken.png",
-    "city" : "japan",
+    "city" : "yokohama, japan",
   },
   {
     "title" : "kyle",
     "picture_url" : "kyle.png",
-    "city" : "florida",
+    "city" : "orlando, florida",
   },
   {
     "title" : "leo",
@@ -71,7 +76,7 @@ let jsonDatabase = [
   {
     "title" : "meisa",
     "picture_url" : "meisa.png",
-    "city" : "japan",
+    "city" : "saitama, japan",
   },
   {
     "title" : "mia",
@@ -91,22 +96,22 @@ let jsonDatabase = [
   {
     "title" : "remi",
     "picture_url" : "remi.png",
-    "city" : "japan",
+    "city" : "yokohama, japan",
   },
   {
     "title" : "rina",
     "picture_url" : "rina.png",
-    "city" : "japan",
+    "city" : "yokohama, japan",
   },
   {
     "title" : "ryu",
     "picture_url" : "ryu.png",
-    "city" : "japan",
+    "city" : "saitama, japan",
   },
   {
     "title" : "seika",
     "picture_url" : "seika.png",
-    "city" : "japan",
+    "city" : "saitama, japan",
   },
   {
     "title" : "sian",
@@ -116,7 +121,12 @@ let jsonDatabase = [
   {
     "title" : "somchai",
     "picture_url" : "somchai.png",
-    "city" : "australia",
+    "city" : "sydney, australia",
+  },
+  {
+    "title" : "tasha",
+    "picture_url" : "tasha.png",
+    "city" : "oahu, hawaii",
   },
   {
     "title" : "toren",
